@@ -1,0 +1,51 @@
+.maincomponent{
+  background-color: rgba(31, 29, 29);
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.MuiSvgIcon-root{
+  color: white;
+}
+header{
+  padding: 10px 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.middle_header{
+  display: flex;
+  flex: 0.6;
+}
+.search_notes_container{
+align-items: center;
+flex: 1;
+margin-right: 10px;
+}
+
+.search_notes_container input{
+  border: none;
+  outline: none;
+  padding: 10px;
+  flex: 1;
+  border-radius: 5px;
+  background-color: rgba(39, 46, 54, 0.9);
+  color: white;
+}
+.notes_container{
+  padding: 15px 5px;
+}
+.each_note{
+  color: white;
+  margin: 10px 20px;
+  padding: 20px 0px;
+}
+
+.notes_container .mnw6qvm{
+  background-color: rgba(39, 46, 54, 1);
+  box-shadow: none;
+}
+.notes_container .myz2dw1{
+  background-color: rgba(131, 137, 145, 0.5);
+}
